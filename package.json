@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/felipescheid/scract/issues"
   },
-  "homepage": "https://github.com/felipescheid/scract#readme"
+  "homepage": "https://github.com/felipescheid/scract#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }
