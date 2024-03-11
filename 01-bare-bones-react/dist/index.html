@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>
+			Scract
+		</title>
+	</head>
+
+	<body>
+		<div id="root"></div>
+
+	</body>
+
+	<!-- react  -->
+	<script src="../../node_modules/react/umd/react.production.min.js"></script>
+
+	<!-- react dom -->
+	<script src="../../node_modules/react-dom/umd/react-dom.production.min.js"></script>
+
+	<!-- scract script -->
+	<script>
+		const scractDescription = React.createElement("p", {style: {color: "blue"}}, "This element is being rendered by React! Hooray!");
+
+		const App = React.createElement("div", null, scractDescription);
+
+		const domNode = document.getElementById("root");
+
+		const root = ReactDOM.createRoot(domNode);
+
+		root.render(App);
+	</script>
+</html>
+

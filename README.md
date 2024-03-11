@@ -6,6 +6,7 @@ I remember when I started working with React in 2018, when class-based component
 
 I'm doing this as an exercise to understand what it would be like to set up a project from scratch using React. With all these frameworks that keep popping up, I want to ensure that I still understand how to use React as _just a library!_.
 
-## Getting started
+This project is structured as follows
 
-First thing we want to do is obvious: install React! Then, instead of resorting to magic tricks like `create_react_app` or Next.js we will try to use the React library to render stuff on a webpage. Also, I'm not sure if I want to set up a server that returns the bundled files magically (I don't like magic). I will try first to create a simple HTML file that imports the React library as well as my scripts to render the UI. This means no `src` directory for now. The HTML and JS files will be created directly in the `dist` folder.
+- Bare bones React: how to set up React and nothing else, and use it to render elements on the browser
+- Setting up JSX: because no one wants to use `React.createElement`
