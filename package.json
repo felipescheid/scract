@@ -4,7 +4,7 @@
   "description": "React from scratch in 2024",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-02": "node_modules/.bin/babel --plugins @babel/plugin-transform-react-jsx 02-setting-up-jsx/src/index.jsx -o 02-setting-up-jsx/dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/plugin-transform-react-jsx": "^7.23.4"
   }
 }
