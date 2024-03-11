@@ -8,4 +8,4 @@ I'm doing this as an exercise to understand what it would be like to set up a pr
 
 ## Getting started
 
-First thing we want to do is obvious: install React! Then, instead of resorting to magic tricks like `create_react_app` or Next.js we will try to use the React library to render stuff on a webpage.
+First thing we want to do is obvious: install React! Then, instead of resorting to magic tricks like `create_react_app` or Next.js we will try to use the React library to render stuff on a webpage. Also, I'm not sure if I want to set up a server that returns the bundled files magically (I don't like magic). I will try first to create a simple HTML file that imports the React library as well as my scripts to render the UI. This means no `src` directory for now. The HTML and JS files will be created directly in the `dist` folder.
