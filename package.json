@@ -1,0 +1,23 @@
+{
+  "name": "scract",
+  "version": "1.0.0",
+  "description": "React from scratch in 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipescheid/scract.git"
+  },
+  "keywords": [
+    "react",
+    "scract"
+  ],
+  "author": "Felipe Scheidemantel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felipescheid/scract/issues"
+  },
+  "homepage": "https://github.com/felipescheid/scract#readme"
+}
