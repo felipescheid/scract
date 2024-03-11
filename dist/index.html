@@ -6,18 +6,25 @@
 	</head>
 
 	<body>
-		<p>
-		This is the skeleton for Scract. For now this is just a plain old HTML page, but soon all this fancy UI will be rendered by React! You can actually already use the React libray in the console, try calling React.createElement there. We also have React DOM imported, so you can call its createRoot method too! You can already create elements from the console this way. Try 1) creating a react element, 2) creating a root with React DOM and 3) rendering the React element you just created with React DOM.
-		</p>
-
 		<div id="root"></div>
 
 	</body>
 
 	<!-- react  -->
-	<script src="../node_modules/react/umd/react.development.js"></script>
+	<script src="../node_modules/react/umd/react.production.min.js"></script>
 
 	<!-- react dom -->
-	<script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
+	<script src="../node_modules/react-dom/umd/react-dom.production.min.js"></script>
+
+	<!-- scract script -->
+	<script>
+		const scractApp = React.createElement("div", {style: {color: "blue"}}, "This element is being rendered by React! Hooray!");
+
+		const domNode = document.getElementById("root");
+
+		const root = ReactDOM.createRoot(domNode);
+
+		root.render(scractApp);
+	</script>
 </html>
 
