@@ -2,9 +2,11 @@
   "name": "scract",
   "version": "1.0.0",
   "description": "React from scratch in 2024",
-  "main": "index.js",
+  "source": "03-setting-up-parcel/src/index.html",
   "scripts": {
-    "build-02": "node_modules/.bin/babel --plugins @babel/plugin-transform-react-jsx 02-setting-up-jsx/src/index.jsx -o 02-setting-up-jsx/dist/index.js"
+    "build-02": "node_modules/.bin/babel --plugins @babel/plugin-transform-react-jsx 02-setting-up-jsx/src/index.jsx -o 02-setting-up-jsx/dist/index.js",
+    "build-03": "parcel build 03-setting-up-parcel/src/index.html",
+    "serve-03": "parcel 03-setting-up-parcel/src/index.html"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,8 @@
   "devDependencies": {
     "@babel/cli": "^7.23.9",
     "@babel/core": "^7.24.0",
-    "@babel/plugin-transform-react-jsx": "^7.23.4"
+    "@babel/plugin-transform-react-jsx": "^7.23.4",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
   }
 }

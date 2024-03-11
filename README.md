@@ -10,3 +10,4 @@ This project is structured as follows
 
 - Bare bones React: how to set up React and nothing else, and use it to render elements on the browser
 - Setting up JSX: because no one wants to use `React.createElement`
+- Setting up Parcel: so we can break down our components into separate files AND have a hot-reloading server.
